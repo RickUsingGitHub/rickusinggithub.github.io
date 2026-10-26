@@ -4,21 +4,40 @@
   <meta charset="utf-8">
   <meta name="google-site-verification" content="x8FVSKoQPyIeiQngc7x5ttRMgmPkxks7OyimwvYFBns" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nihongo Michi</title>
-  <link rel="canonical" href="https://rickusinggithub.github.io/nihongo-michi/">
+  <title>Nihongo Michi — learn Japanese from zero to JLPT N1</title>
+  <meta name="description" content="A free app that teaches real-world Japanese from zero to JLPT N1, on Windows, iPhone and Android.">
   <style>
-    body { font-family: "Segoe UI", system-ui, sans-serif; background: #f6f1e7; color: #24201b; display: grid; place-items: center; min-height: 90vh; margin: 0; text-align: center; }
-    a { display: inline-block; margin-top: 12px; padding: 12px 22px; border-radius: 12px; background: #c8402f; color: #fff; text-decoration: none; font-weight: 600; }
+    body { font-family: "Segoe UI", system-ui, sans-serif; background: #f6f1e7; color: #24201b; margin: 0; line-height: 1.6; }
+    main { max-width: 680px; margin: 0 auto; padding: 40px 20px 60px; text-align: center; }
+    img { height: 200px; }
+    h1 { font-size: 32px; margin: 8px 0 4px; }
+    .lead { font-size: 18px; color: #5a5348; }
+    ul { text-align: left; display: inline-block; margin: 18px 0; }
+    .btn { display: inline-block; margin: 8px 6px; padding: 12px 24px; border-radius: 12px; background: #c8402f; color: #fff; text-decoration: none; font-weight: 600; }
+    .btn.ghost { background: transparent; color: #2e4a7d; border: 1px solid #e2d9c6; }
+    footer { margin-top: 30px; font-size: 14px; color: #8b8376; }
+    footer a { color: #8b8376; }
   </style>
 </head>
 <body>
   <main>
-    <div style="font-size: 54px">道</div>
-    <h1>Nihongo Michi</h1>
-    <p>Learn real-world Japanese from zero to JLPT N1.</p>
-    <a href="/nihongo-michi/">Open the app</a>
+    <img src="/nihongo-michi/img/tabi.webp" alt="Tabi the tanuki, the Nihongo Michi mascot">
+    <h1>Nihongo Michi 日本語の道</h1>
+    <p class="lead">A free app that teaches real-world Japanese from zero to JLPT N1, on Windows, iPhone and Android.</p>
+    <ul>
+      <li>123 lessons, 420 grammar points and 75 role-play conversations</li>
+      <li>Hiragana, katakana and all 2,230 JLPT kanji with stroke order</li>
+      <li>Spaced-repetition reviews, listening and speaking practice</li>
+      <li>Optional sync of your progress through your own Google Drive</li>
+    </ul>
+    <div>
+      <a class="btn" href="/nihongo-michi/">Open the app</a>
+      <a class="btn ghost" href="https://github.com/RickUsingGitHub/nihongo-michi/releases">Windows download</a>
+    </div>
+    <footer>
+      <a href="/nihongo-michi/privacy.html">Privacy policy</a> ·
+      <a href="https://github.com/RickUsingGitHub/nihongo-michi">Source code</a>
+    </footer>
   </main>
-  <!-- send visitors on to the app; a script (not an instant meta refresh) so Google's site check still sees the tag above -->
-  <script>location.replace('/nihongo-michi/' + location.search + location.hash);</script>
 </body>
 </html>
